@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge/">
+    <meta name="viewport" content="width = device-width, initial-scale = 1"/>
+    <meta name="description" content="testing out!"/>
+	<meta name="author" content="Michelle K"/>
+
+    <title>hello there!</title>
+
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+     <!-- top section svg setup -->
+     <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+
+     <script type="text/javascript">
+
+       (function(){ 
+
+         document.onreadystatechange = () => {
+
+           if (document.readyState === 'complete') {
+             let el = document.querySelector('#drawing2');
+             let myAnimation = new LazyLinePainter(el, {"ease":"easeInSine","strokeWidth":2.5,"strokeOpacity":1,"strokeColor":"#90323D","strokeCap":"round"}); 
+             myAnimation.paint(); 
+           }
+         }
+
+       })();
+
+     </script>
+</head>
+    
+    <!-- nav js -->
+<body data-spy="scroll" data-offset="90" data-target="#navbar_1" style="padding-top:40px">
+        <!-- nav -->
+        <nav id="navbar_1" class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a href="#top" class="scrollto nav-link active">top</a></li>
+                <li class="nav-item"><a href="#about" class="scrollto nav-link">about</a></li>
+                <li class="nav-item"><a href="#visualise" class="scrollto nav-link">college</a></li>
+                <li class="nav-item"><a href="#etc" class="scrollto nav-link">etc.</a></li>
+            </ul>
+                </div>
+          </div> 
+        
+        </nav>
+
+
+        <!-- top page with svg sequence-->
+    <section id="top" class="page">
+            <center>
+            <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="drawing2" sodipodi:docname="drawing-2.svg" inkscape:version="1.0.1 (c497b03c, 2020-09-10)" data-llp-composed="true" class="lazy-line-painter">
+                <defs id="defs2"/>
+                <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="400" inkscape:cy="560" inkscape:document-units="mm" inkscape:current-layer="layer1" inkscape:document-rotation="0" showgrid="false" inkscape:window-width="1252" inkscape:window-height="801" inkscape:window-x="0" inkscape:window-y="23" inkscape:window-maximized="0"/>
+                <metadata id="metadata5">
+                  <rdf:rdf>
+                    <cc:work rdf:about="">
+                      <dc:format>image/svg+xml</dc:format>
+                      <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                      <dc:title/>
+                    </cc:work>
+                  </rdf:rdf>
+                </metadata>
+                <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+                  <path style="fill: none; stroke-linejoin: miter; stroke-linecap: round;" d="m -123.22024,126.24405 c 4.7877,-0.75596 10.66721,0.86805 14.3631,-2.26786 10.310123,-8.74799 13.269485,-27.90988 13.607141,-40.065476 0.05978,-2.152123 -0.179186,-5.525452 -2.267857,-6.047621 -1.909297,-0.477324 -3.141474,2.674038 -3.779764,4.535715 -6.7243,19.612542 -4.45579,23.239502 -8.31547,43.089282 -0.50214,2.58243 -1.6298,5.00728 -2.26786,7.55953 -0.25198,1.00793 -1.26051,3.93202 -0.75595,3.02381 5.00764,-9.01377 9.75379,-27.07235 24.190474,-22.67857 7.86707,2.39432 6.41868,10.52648 11.339284,15.11904 10.572295,9.86748 21.960885,-9.6503 23.434524,-17.3869 0.274924,-1.44336 -0.827084,-4.06792 -2.267857,-3.77976 -7.487065,1.49741 -13.275625,22.11801 2.267857,24.19047 4.6056,0.61408 9.916271,-0.20138 13.607143,-3.02381 7.851142,-6.00381 19.769223,-27.56962 16.630951,-38.553568 -0.13845,-0.484576 -1.244801,-0.427363 -1.511904,0 -2.389038,3.822462 -5.069778,7.694949 -6.04762,12.095238 -1.791782,8.06302 -5.540663,21.99696 3.023809,28.72619 12.533976,9.84812 27.05656132,-29.67254 25.7023819,-37.797619 -0.1493633,-0.89618 -1.8758618,-2.331532 -2.2678571,-1.511903 -2.8537688,5.966971 -5.0226182,12.364432 -6.0476188,18.898812 -1.015285,6.47244 -1.637098,13.311 0,19.65476 2.0382725,7.8983 13.7830241,2.09197 19.6547614,-3.77976 3.1873746,-3.18738 4.1179646,-8.02153 6.0476186,-12.09524 0.341118,-0.72014 0.755953,-3.0647 0.755953,-2.26786 0,3.53677 -1.423861,7.11021 -0.755953,10.58333 1.291567,6.71615 5.731007,15.04892 13.607143,6.04762 3.59446,-4.10795 2.73762,-11.54177 -3.023809,-12.85119 -4.422924,-1.00521 -9.071429,0 -13.607143,0 -0.251984,0 0.522948,-0.0959 0.755952,0 4.069244,1.67557 7.920355,3.90004 12.095238,5.29167 1.927309,0.64243 4.071304,1.2265 6.04762,0.75595 0.537617,-0.128 13.607142,-4.06464 13.607142,-8.31547" id="path867" data-llp-id="drawing2-0" data-llp-duration="2500" data-llp-delay="0" fill-opacity="0" data-llp-stroke-cap="round"/>
+                  <path style="fill: none; stroke-linejoin: miter; stroke-linecap: round;" d="m 66.523808,114.90476 c 5.794111,0.37852 21.922618,-1.29017 21.922618,0.75595" id="path885" data-llp-id="drawing2-1" data-llp-duration="2500" data-llp-delay="2500" fill-opacity="0" data-llp-stroke-cap="round"/>
+                  <path style="fill: none; stroke-linejoin: miter; stroke-linecap: round;" d="m 81.642856,96.00595 c -1.58964,5.61658 -20.94326,34.69773 -4.535714,37.04167 10.940314,1.5629 16.157463,-13.58919 19.654763,-21.16667 0.259225,-0.56166 5.683565,-12.795472 5.291665,-14.363094 -0.25929,-1.037158 -1.63564,1.405747 -2.267856,2.267858 -2.149115,2.930606 -4.54379,5.763006 -6.047621,9.071426 -1.672759,3.68007 -1.482651,10.43707 -2.267855,14.3631 -0.03887,0.19434 -2.034733,5.29166 -1.511906,5.29166 0.251984,0 -0.144502,-0.54952 0,-0.75595 1.647592,-2.3537 3.191301,-4.84323 5.291667,-6.80357 1.795592,-1.67589 7.282391,-5.26926 10.583331,-4.53571 3.66616,0.8147 2.78784,16.64261 10.58334,12.09523 2.66595,-1.55513 12.80838,-15.11904 5.29166,-15.11904 -8.56035,0 -5.46995,19.87726 4.53572,15.875 4.81572,-1.9263 12.9858,-22.44301 18.89881,-12.09524 1.33731,2.34029 1.35505,7.68588 3.77976,9.07143 6.46924,3.6967 21.68114,-4.50419 18.89881,-12.85119 -0.60885,-1.82655 -5.61535,-5.72394 -7.55953,-3.77977 -2.84563,2.84564 -2.97788,15.13217 2.26786,16.63096 6.05757,1.73073 26.49308,-1.15131 31.75,-3.77977" id="path909" data-llp-id="drawing2-2" data-llp-duration="2500" data-llp-delay="5000" fill-opacity="0" data-llp-stroke-cap="round"/>
+                </g>
+              </svg>
+            </center>
+     </section>
+
+     <!-- about section -->
+     <section id="about" class="page">
+         <h1>hello!</h1>
+            <img src="img/about.jpg" alt="img" />
+         <p>i am a second year/u1 at mcgill.<br>
+            always asking questions + learning new things.<br>
+            <br>
+            some fun facts about me:<br>
+            lived in the us and japan for 3 years each!<br>
+            favourite ice cream flavour is anything <font color="#90323D">raspberry</font>.<br>
+            <br>
+            this webpage is an experiment and would not be possible without:<br>
+            bootstrap, jquery, lazylinepainter.js, chart.js, stackoverflow, google ;)<br>
+        </p>
+     </section>
+
+     <section id="visualise" class="page">
+         <h1>college in zoom times</h1>
+         <p>in hours!</p>
+         <hr>
+    <!-- Create a div where the graph will take place -->
+    <div class="chart-container">
+    <canvas id="myDoughnutChart"></canvas>
+    </div>
+     </section>
+
+     <section id="etc" class="page">
+         <h1>let's connect!</h1>
+         <p>
+            <a href="mailto:michelle.karman@mail.mcgill.ca"><img src="img/email.svg" alt="email icon"></a>
+            <a href="https://github.com/mkrmn" target="_blank"><img src="img/github.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.svg" alt="linkedin icon"></a>
+        </p>
+     </section>
+
+     <footer class="container mt-4">
+         <div class="footer-note">
+            <div class="row">
+            <div class="col">
+                <p>made in montreal!</p>
+            </div>
+            </div>
+        </div>
+      </footer>
+
+ <!-- js -->
+ <script src="js/jquery-3.5.1.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/Chart.bundle.min.js"></script>
+ <script src="js/js.js"></script>
+
+</body>
+</html>
